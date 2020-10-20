@@ -38,6 +38,7 @@
 //! * `cancel_swap` - may be called by a sender after a specified duration
 
 // Ensure we're `no_std` when compiling for Wasm.
+
 #![cfg_attr(not(feature = "std"), no_std)]
 
 mod tests;
